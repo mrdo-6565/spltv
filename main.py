@@ -1,9 +1,8 @@
 import streamlit as st
 
-st.write("Kalkulator PLTV created by Mr Do")
-
-import streamlit as st
 import numpy as np
+
+st.write("Kalkulator PLTV created by Mr Do")
 
 def solve_linear_system(coeff_matrix, const_matrix):
     try:
